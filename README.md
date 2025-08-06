@@ -198,6 +198,7 @@ cargo test
 cargo xtask --help
 ```
 
+### 删除子模块
 ```
 git submodule deinit -f rustlings
 git rm -f rustlings
