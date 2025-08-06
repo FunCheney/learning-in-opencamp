@@ -198,6 +198,15 @@ cargo test
 cargo xtask --help
 ```
 
+```
+git submodule deinit -f rustlings
+git rm -f rustlings
+rm -f .gitmodules
+rm -rf .git/modules/rustlings
+rm -rf rustlings
+git commit -am "Remove rustlings submodule"
+```
+
 ## 许可证
 
 本项目采用 [MIT 许可证](LICENSE)。
