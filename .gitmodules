@@ -1,0 +1,3 @@
+[submodule "exercises/rustlings"]
+	path = exercises/rustlings
+	url = https://github.com/FunCheney/rustlings.git
